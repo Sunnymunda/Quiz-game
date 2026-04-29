@@ -159,15 +159,15 @@ function showResults() {
   const percentage = (score / quizQuestions.length) * 100;
 
   if (percentage === 100) {
-    resultMessage.textContent = "Perfect! You're a genius!";
+    resultMessage.textContent = "You know your stuff goddamn!";
   } else if (percentage >= 80) {
-    resultMessage.textContent = "Great job! You know your stuff!";
+    resultMessage.textContent = "Hold on! You know ball.";
   } else if (percentage >= 60) {
-    resultMessage.textContent = "Good effort! Keep learning!";
+    resultMessage.textContent = "You can do better mate!";
   } else if (percentage >= 40) {
-    resultMessage.textContent = "Not bad! Try again to improve!";
+    resultMessage.textContent = "Think about your life choices mate!";
   } else {
-    resultMessage.textContent = "Keep studying! You'll get better!";
+    resultMessage.textContent = "Just give up bro!";
   }
 }
 
